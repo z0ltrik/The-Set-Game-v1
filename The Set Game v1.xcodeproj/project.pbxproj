@@ -12,6 +12,9 @@
 		104408211FF1899700C6CB27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1044081F1FF1899700C6CB27 /* Main.storyboard */; };
 		104408231FF1899700C6CB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104408221FF1899700C6CB27 /* Assets.xcassets */; };
 		104408261FF1899700C6CB27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104408241FF1899700C6CB27 /* LaunchScreen.storyboard */; };
+		1044082E1FF1906900C6CB27 /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044082D1FF1906900C6CB27 /* SetCard.swift */; };
+		104408301FF19FCB00C6CB27 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044082F1FF19FCB00C6CB27 /* UIViewExtension.swift */; };
+		104408321FF1B68200C6CB27 /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104408311FF1B68200C6CB27 /* SetGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		104408221FF1899700C6CB27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		104408251FF1899700C6CB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		104408271FF1899700C6CB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1044082D1FF1906900C6CB27 /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
+		1044082F1FF19FCB00C6CB27 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		104408311FF1B68200C6CB27 /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 				1044081B1FF1899700C6CB27 /* AppDelegate.swift */,
 				1044081D1FF1899700C6CB27 /* ViewController.swift */,
 				1044081F1FF1899700C6CB27 /* Main.storyboard */,
+				104408311FF1B68200C6CB27 /* SetGame.swift */,
+				1044082D1FF1906900C6CB27 /* SetCard.swift */,
 				104408221FF1899700C6CB27 /* Assets.xcassets */,
 				104408241FF1899700C6CB27 /* LaunchScreen.storyboard */,
 				104408271FF1899700C6CB27 /* Info.plist */,
+				1044082F1FF19FCB00C6CB27 /* UIViewExtension.swift */,
 			);
 			path = "The Set Game v1";
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1044082E1FF1906900C6CB27 /* SetCard.swift in Sources */,
 				1044081E1FF1899700C6CB27 /* ViewController.swift in Sources */,
+				104408321FF1B68200C6CB27 /* SetGame.swift in Sources */,
+				104408301FF19FCB00C6CB27 /* UIViewExtension.swift in Sources */,
 				1044081C1FF1899700C6CB27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMM9LY5ZZ5;
 				INFOPLIST_FILE = "The Set Game v1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sealucky.The-Set-Game-v1";
@@ -289,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMM9LY5ZZ5;
 				INFOPLIST_FILE = "The Set Game v1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sealucky.The-Set-Game-v1";
