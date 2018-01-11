@@ -46,6 +46,7 @@ struct Game{
     }
     
     private(set) var gameScore = 0
+    
     private(set) var iPhoneScore = 0
     
     private(set) var setsFoundQuantity = 0

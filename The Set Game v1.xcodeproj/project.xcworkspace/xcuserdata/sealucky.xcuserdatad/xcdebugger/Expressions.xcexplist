@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Game.replaceSelectedCardsWithNewCards():SetGame.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cardsInGame.count">
+            </PersistentString>
+            <PersistentString
+               value = "cardsInGame.count-selectedCards.count">
+            </PersistentString>
+            <PersistentString
+               value = "selectedCards.count">
+            </PersistentString>
+            <PersistentString
+               value = "cardsInGame[indexOfSelectedCard]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.add3MoreCards(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "numberOfCardsPossibleToAdd">
+            </PersistentString>
+            <PersistentString
+               value = "visibleCards">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Game.getNewCard():SetGame.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexOfLastShownCard">
+            </PersistentString>
+            <PersistentString
+               value = "lastCardIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Game.cardsLeftInDeck.getter:SetGame.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexOfLastShownCard">
+            </PersistentString>
+            <PersistentString
+               value = "allGameCards.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
